@@ -19,8 +19,8 @@ ADD your/migrations db/migration
 During container startup, flyway will run your migrations. After that, liberty is started.
 To connect flyway to the right database, the following environment variables are used and need to be set when the container is run:
 
-    - DB_HOST
-    - DB_PORT
-    - DB_NAME
-    - DB_USER
-    - DB_PASSWORD
+    - DATABASE_HOST
+    - DATABASE_PORT
+    - DATABASE_NAME
+    - DATABASE_USER
+    - DATABASE_PASSWORD
