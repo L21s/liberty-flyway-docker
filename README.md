@@ -1,6 +1,6 @@
 # liberty-flyway-docker
 
-A (relatively opinionated) docker container running a Websphere Liberty container (esentially copied from [websphere-liberty on dockerhub](https://hub.docker.com/_/websphere-liberty/])) and [Flyway](https://flywaydb.org/).
+A (relatively opinionated) docker container running a Websphere Liberty Profile Server (esentially copied from [websphere-liberty on dockerhub](https://hub.docker.com/_/websphere-liberty/])) and [Flyway](https://flywaydb.org/).
 
 ## Usage
 
