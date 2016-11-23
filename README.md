@@ -6,11 +6,11 @@ A (relatively opinionated) docker container running a Websphere Liberty Profile 
 
 ### Prepare your container
 
-For usage, you will most likely want to create your own dockerfile based on `liberty-flyway-docker`.
+For usage, you will most likely want to create your own dockerfile based on [`larscheidschmitzhermes/liberty-flyway-docker`](https://hub.docker.com/r/tobiaslarscheid/liberty-flyway-docker/).
 For deploying your Java Application to liberty, just refer to the websphere-liberty documentation on [dockerhub](https://hub.docker.com/_/websphere-liberty/).
 Make sure to add your desired flyway migrations to the directory db/migration in the container:
 ```Dockerfile
-FROM liberty-flyway-docker
+FROM larscheidschmitzhermes/liberty-flyway-docker
 ADD your/migrations db/migration
 ``` 
 
