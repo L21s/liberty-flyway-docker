@@ -10,7 +10,7 @@ For usage, you will most likely want to create your own dockerfile based on `lib
 For deploying your Java Application to liberty, just refer to the websphere-liberty documentation on [dockerhub](https://hub.docker.com/_/websphere-liberty/).
 Make sure to add your desired flyway migrations to the directory db/migration in the container:
 ```Dockerfile
-FROM: liberty-flyway-docker
+FROM liberty-flyway-docker
 ADD your/migrations db/migration
 ``` 
 
