@@ -1,0 +1,1 @@
+./flyway/flyway -url=jdbc:mysql://$DB_HOST:$DB_PORT/$DB_NAME -user=$DB_USER -password=$DB_PASSWORD -locations=filesystem:./db/migration migrate && /opt/ibm/docker/docker-server run defaultServer
