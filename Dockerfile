@@ -8,10 +8,6 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends unzip \
     && rm -rf /var/lib/apt/lists/*
 
-#set locale
-RUN locale-gen en_US.UTF-8
-RUN export LANG=en_US.utf8
-
 # Download & Install Flyway
 RUN curl -o flyway.zip http://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/4.0.3/flyway-commandline-4.0.3.zip && unzip flyway.zip && rm flyway.zip && mv flyway-4.0.3 flyway
 
